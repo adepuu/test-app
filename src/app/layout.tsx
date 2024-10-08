@@ -50,9 +50,11 @@ export default function RootLayout({
     <html lang="en">
     <Providers>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex justify-center items-center`}
       >
+      <main className="max-w-md">
         {children}
+      </main>
       </body>
     </Providers>
     </html>
