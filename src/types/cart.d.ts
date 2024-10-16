@@ -1,11 +1,11 @@
 import {Product} from "@/types/product";
 
-type CartItem = {
+export type CartItem = {
   product: Product;
   quantity: number;
 };
 
-type Cart = {
+export type Cart = {
   items: CartItem[];
   total: number;
 };
