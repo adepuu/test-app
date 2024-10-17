@@ -1,0 +1,2 @@
+yarn cy:run --component
+yarn jest
